@@ -11,16 +11,55 @@ Links úteis:
 - [Markdown Guide - Guia](https://www.markdownguide.org/)
 - [Plataforma 5 ESTRELAS DIO.me] (https://web.dio.me/)
 
-A criação de um repositório no Github pode ser realizada por meio da própria interface do Github, clicando New (Repository).
+A criação de um repositório no Github pode ser realizada por meio da própria interface do Github, clicando em New (Repository).
 Este repositório pode ser utilizado para compartilhar projeto ou anotações com integrantes do projeto de forma privada ou pública.
 Também é possível realizar o clone do repositório criado. Bastando apenas clicar em "Code", copiar o link HTTPS ou a chave SSH ou o GITHUB CLI para usá-lo em um terminal.
 Neste desafio foi utiizado o GitBash instalado no computador para realizar o clone.
-Antes de clonar esclhe-se um diretório para salvar os arquivos que serão clonados e abre o GitBash.
+Antes de clonar escolhe-se um diretório para salvar os arquivos que serão clonados e abre-se o terminal do GitBash, com o botão direito do mouse, dentro deste diretório local.
 Uma janela do terminal será aberta paro repositório local.
-Em seguida digita-se: git clone + nome do repositório clonado e aperta enter.
+Em seguida digita-se: git clone + "nome do repositório clonado" e tecla enter.
 
 Exemplo: >> git clone https://github.com/sidneifs/dio_desafio_git_github_fullstacksantander.git
 
 Será clonado o repositório do github para o repositório local (no computador).
 Daí em diante basta apenas trabalhar com as melhorias necessárias e/ou desenvolvimento do projeto.
 
+É possível realizar as atualizações do projeto pelo próprio GitHub browser, pelo GitHub Desktop, pelo editor externo de projeto (Exemplo: VS CODE, Notepad++, JDK, AWD, Sublime Text, Atom, Brackets, Light Table, BlueFish, Android Studio, etc.) e pelo GitBash
+Para atualizar o projeto no repositório do GitHub a partir do repositório local deve-se iniciar o procedimento de identificar o status, selecionar o(s) arquivo(s) que deseja enviar para o GitHub, adicionar por meio do comando do terminal em uso, realizar atualização da "main brach" através do comando "push".
+
+Para atualizar o repositório no GitHub utilizando o GitBash o procedimento é:
+
+[1] Identificar Status do repositório local para ver se houve atualizações dos arquivos do projeto
+[2] Se houveram atualizações dos arquivos de projeto e deseja atualizar no GitHub deve-se escolher os arquivos para adicionar
+[3] Adicionar os arquivos de projetos através de comandos do GitBash
+[4] Realizar o "commit" referente à atualização que irá realizar para identificar com clareza o que está sendo feito
+[5] Verificar Status da atualização da Branch
+[6] Realizar o "Push" através de comando do GitBash
+[7] Conferir Status na plataforma GitHub se os arquivos subiram para o repositório e no GitBash para identificar se houve erros de atualização
+[8] Se tudo correu bem seguir com o projeto
+
+Comandos no GitBash para atualizar o repositório do GitHub:
+
+[000] Antes de mais nada deve-se clicar com o botão direito do mouse no repositório local do projeto
+[00] Em seguida selecionar o GitBash, já instalado, para abrir o terminal
+[0] Conferir no terminal do GitBash se o repositório local está com endereço do diretório correto antes de realizar procedimentos
+[1] Conferir Status utilizando o comando >> git status
+[2] Escolher arquivos para atualizar no repositório do GitHub
+[3] Adicionar arquivos da atualização utilizando o comando >> "git add ." ou "git add -A" (All - para adicionar todos os arquivos no controle de versão local) 
+[4] "Commitar" a versão que foi atualizada antes de enviar para o servidor remoto do GitHub utilizando o comando >> git commit -m "Declaração do que foi realizado de forma clara para entendimento" 
+[5] Confirir o status com "git status" na branch main após realizar o "commit"
+[6] Enviar as atualizações com os arquivos de projeto para o servidor remoto do GitHub com o comando >> git push origin main
+[7] Conferir status com o comando git status no repositório local e atualizar o browser com a tecla F5 para conferir o que foi enviado para o servidor remoto no GitHub
+[8] Realizar todos os passos novmente quando atualizar alguma parte do projeto
+
+# OBSERVAÇÃO IMPORTANTE:
+Se você teve problema com o LOGIN do GitHub no GitBash, VS Code ou GitHub Desktop veririfique nas documentações do GitHub DOCs sobre as chaves SSH e GPG Keys.
+Pode ser que essas chaves tenham sido expiradas na sua "máquina local". 
+
+# Se sim, adicione uma nova chave conforme documentação:
+## - [SSH](https://docs.github.com/pt/authentication) e;
+## - [GPG Keys](https://docs.github.com/pt/authentication/managing-commit-signature-verification)
+
+É possivel tentar o reconhecimento e acesso de novo login pelo GitHub Desktop.
+Neste caso é necessário abrir o GitHub Desktop e realizar o LogOff e em seguida realizar o LogIn. 
+Ao reabrir o GitBash, VS Code ou outro editor de códigos estarão normalizados para acesso e uso.
