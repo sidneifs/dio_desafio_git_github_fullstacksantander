@@ -1,0 +1,26 @@
+Desafio inicial 01 do Bootcamp Santander Fullstack Developer
+
+Tema: Git e GitHub e o primeiro repositório.
+
+Terminal utilizado: Git Bash
+Git Bash é um terminal extendido para otimizar o uso do Git dentro do computador/notebook.
+
+Links úteis:
+- [Download Git Bash](https://git-scm.com/downloads)
+- [Acessar Github] (https://github.com/)
+- [Markdown Guide - Guia](https://www.markdownguide.org/)
+- [Plataforma 5 ESTRELAS DIO.me] (https://web.dio.me/)
+
+A criação de um repositório no Github pode ser realizada por meio da própria interface do Github, clicando New (Repository).
+Este repositório pode ser utilizado para compartilhar projeto ou anotações com integrantes do projeto de forma privada ou pública.
+Também é possível realizar o clone do repositório criado. Bastando apenas clicar em "Code", copiar o link HTTPS ou a chave SSH ou o GITHUB CLI para usá-lo em um terminal.
+Neste desafio foi utiizado o GitBash instalado no computador para realizar o clone.
+Antes de clonar esclhe-se um diretório para salvar os arquivos que serão clonados e abre o GitBash.
+Uma janela do terminal será aberta paro repositório local.
+Em seguida digita-se: git clone + nome do repositório clonado e aperta enter.
+
+Exemplo: >> git clone https://github.com/sidneifs/dio_desafio_git_github_fullstacksantander.git
+
+Será clonado o repositório do github para o repositório local (no computador).
+Daí em diante basta apenas trabalhar com as melhorias necessárias e/ou desenvolvimento do projeto.
+
