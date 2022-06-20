@@ -58,7 +58,8 @@ Se você teve problema com o LOGIN do GitHub no GitBash, VS Code ou GitHub Deskt
 Pode ser que essas chaves tenham sido expiradas na sua "máquina local". 
 
 # Se sim, adicione uma nova chave conforme documentação:
-## - [SSH](https://docs.github.com/pt/authentication) e;
+## - [Conectando-se ao GitHub com SSH] (https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
+## - [SSH Authentication](https://docs.github.com/pt/authentication) e;
 ## - [GPG Keys](https://docs.github.com/pt/authentication/managing-commit-signature-verification)
 
 É possivel tentar o reconhecimento e acesso de novo login pelo GitHub Desktop.
