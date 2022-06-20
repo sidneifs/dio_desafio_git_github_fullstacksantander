@@ -51,6 +51,7 @@ Comandos no GitBash para atualizar o repositório do GitHub:
 [6] Enviar as atualizações com os arquivos de projeto para o servidor remoto do GitHub com o comando >> git push origin main
 [7] Conferir status com o comando git status no repositório local e atualizar o browser com a tecla F5 para conferir o que foi enviado para o servidor remoto no GitHub
 [8] Realizar todos os passos novmente quando atualizar alguma parte do projeto
+[9]Ver pasta "03 Desafio 1 Git e GitHub" com imagens dos Procedimentos
 
 # OBSERVAÇÃO IMPORTANTE:
 Se você teve problema com o LOGIN do GitHub no GitBash, VS Code ou GitHub Desktop veririfique nas documentações do GitHub DOCs sobre as chaves SSH e GPG Keys.
@@ -63,3 +64,7 @@ Pode ser que essas chaves tenham sido expiradas na sua "máquina local".
 É possivel tentar o reconhecimento e acesso de novo login pelo GitHub Desktop.
 Neste caso é necessário abrir o GitHub Desktop e realizar o LogOff e em seguida realizar o LogIn. 
 Ao reabrir o GitBash, VS Code ou outro editor de códigos estarão normalizados para acesso e uso.
+Na versão 2.36.1 do GitBash o login pode ser realizado pelo browser para confirmação de permissão de acesso no GitHub.
+
+Obrigado DIO e SANTANDER por disponibiizar este Bootcamp
+>> #ContratoDeCompromisso #DIO #Santander
